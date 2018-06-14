@@ -203,3 +203,5 @@ var virtualKeyboardDetector = ( function( window, undefined ) {
   };
 
 } )( window );
+
+if (module) module.exports = {virtualKeyboardDetector: virtualKeyboardDetector}
